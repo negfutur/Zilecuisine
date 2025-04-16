@@ -30,4 +30,9 @@ export default function App() {
       </body>
     </html>
   );
+}import stylesheet from "./styles/tailwind.css";
+
+export function links() {
+  return [{ rel: "stylesheet", href: stylesheet }];
 }
+import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
